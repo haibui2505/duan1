@@ -32,7 +32,11 @@
                     style="@style/viewParent.headerText.NoMode"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
+<<<<<<< HEAD
                     android:text="Already \nhave an \nAccount?" />
+=======
+                    android:text="Đăng nhập" />
+>>>>>>> duy
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -63,7 +67,11 @@
                 <EditText
                     android:id="@+id/edt_inputPassword_log"
                     style="@style/modifiedEditText"
+<<<<<<< HEAD
                     android:hint="@string/login_password_hint"
+=======
+                    android:hint="Mật khẩu"
+>>>>>>> duy
                     android:inputType="textPassword"
                     android:maxLines="1" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -72,24 +80,39 @@
                 style="@style/viewParent"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
+<<<<<<< HEAD
                 android:text="Forgot Password?"
+=======
+                android:text="Quên mật khẩu?"
+>>>>>>> duy
                 android:textColor="@color/primaryTextColor"
                 android:textSize="@dimen/newsMoreTextSize" />
 
             <Button
                 android:id="@+id/btn_login"
                 style="@style/loginButton"
+<<<<<<< HEAD
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/loginViewsMargin"
                 android:text="Login"
                  />
+=======
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:text="Đăng nhập" />
+>>>>>>> duy
 
             <TextView
                 android:id="@+id/tv_register_now"
                 style="@style/parent"
                 android:layout_marginTop="@dimen/loginViewsMargin"
                 android:gravity="center_horizontal"
+<<<<<<< HEAD
                 android:text="New user? Register Now"
+=======
+                android:text="Dùng tài khoản mới? Đăng kí ngay"
+>>>>>>> duy
                 android:textAlignment="center"
                 android:textColor="@color/themeColor"
                 android:textSize="17sp"
@@ -115,7 +138,11 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="6"
                     android:gravity="center_horizontal"
+<<<<<<< HEAD
                     android:text="Use other Methods"
+=======
+                    android:text="Đăng nhập bằng"
+>>>>>>> duy
                     android:textAlignment="center"
                     android:textSize="12sp" />
 
@@ -167,7 +194,12 @@
         android:layout_marginRight="11dp"
         android:layout_marginBottom="30dp"
         android:onClick="onLoginClick"
+<<<<<<< HEAD
         android:src="@drawable/ic_add_img" />
+=======
+        android:src="@drawable/ic_add_img"
+        tools:ignore="OnClick" />
+>>>>>>> duy
 
 <!--    <com.google.android.material.textfield.TextInputLayout-->
 <!--        android:layout_width="match_parent"-->
