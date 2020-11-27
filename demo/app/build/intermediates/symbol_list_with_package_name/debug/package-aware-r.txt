@@ -1848,6 +1848,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_add_pro
 id btn_holder
 id btn_login
 id btn_logout_direc
@@ -1925,12 +1926,18 @@ id easeInOut
 id easeOut
 id edit_phone_number
 id edit_query
+id edt_address_pro
+id edt_ageofpet_pro
 id edt_inputEmail_log
 id edt_inputEmail_reg
 id edt_inputName_reg
 id edt_inputPassword_log
+id edt_kind_pro
+id edt_money_pro
+id edt_more_pro
 id edt_pasword_reg
 id edt_phoneNumber_reg
+id edt_title_pro
 id email
 id email_button
 id email_footer_tos_and_pp_text
@@ -1991,6 +1998,7 @@ id imageView12
 id img_facebook_log
 id img_google_log
 id img_next_to_register
+id img_product
 id info
 id invisible
 id invisible_frame
@@ -2011,9 +2019,11 @@ id light
 id line1
 id line3
 id linear
+id linear_pro
 id listMode
 id list_item
 id logo
+id lv_product
 id main_tos_and_pp
 id masked
 id media_actions
@@ -2180,6 +2190,7 @@ id textInputPassword
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2211,12 +2222,12 @@ id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id tv_login_now
 id tv_register_now
-id txt_TenNguoiNhan
-id txt_TrangThai
-id txt_address
-id txt_date_up_product
-id txt_soDienThoai
-id txt_tienThuHo
+
+id txt_Title_pro
+id txt_address_pro
+id txt_date_pro
+id txt_money_pro
+
 id unchecked
 id uniform
 id unlabeled

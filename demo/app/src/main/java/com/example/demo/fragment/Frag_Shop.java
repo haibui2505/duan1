@@ -7,8 +7,23 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 
 import com.example.demo.R;
+=======
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import com.example.demo.R;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.example.demo.Model.model_product;
+import com.example.demo.adapter.adapter_product;
+
+import java.util.ArrayList;
+>>>>>>> hai
 
 /**
  * A simple {@link Fragment} subclass.
@@ -16,6 +31,15 @@ import com.example.demo.R;
  * create an instance of this fragment.
  */
 public class Frag_Shop extends Fragment {
+<<<<<<< HEAD
+=======
+    private EditText edt_title, edt_address, edt_money, edt_kind, edt_ageof, edt_more;
+    private Button btn;
+    private DatabaseReference mReference;
+    private ListView lv;
+    private ArrayList<model_product> mList;
+    private adapter_product adapter_product;
+>>>>>>> hai
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,7 +84,50 @@ public class Frag_Shop extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_frag__shop, container, false);
     }
+=======
+        View view = inflater.inflate(R.layout.fragment_frag__shop, container, false);
+
+//        Ánh xạ
+        edt_title = view.findViewById(R.id.edt_title_pro);
+        edt_address = view.findViewById(R.id.edt_address_pro);
+        edt_ageof = view.findViewById(R.id.edt_ageofpet_pro);
+        edt_money = view.findViewById(R.id.edt_money_pro);
+        edt_more = view.findViewById(R.id.edt_more_pro);
+        edt_kind = view.findViewById(R.id.edt_kind_pro);
+        btn = view.findViewById(R.id.btn_add_pro);
+        lv = view.findViewById(R.id.lv_product);
+
+//        Adapter + listView
+        mList = new ArrayList<>();
+        adapter_product = new adapter_product(getActivity(), R.layout.list_item_prod, mList);
+        lv.setAdapter(adapter_product);
+
+//        Sự kiện onClick
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String title = edt_title.getText().toString().trim().toLowerCase();
+                String address = edt_address.getText().toString().trim().toLowerCase();
+                String ageofpet = edt_ageof.getText().toString().trim().toLowerCase();
+                String money = edt_money.getText().toString().trim().toLowerCase();
+                String more = edt_more.getText().toString().trim().toLowerCase();
+                String kind = edt_kind.getText().toString().trim().toLowerCase();
+
+                if (title.equals("") || address.equals("") || address.equals("") || ageofpet.equals("") || money.equals("") || more.equals("") || kind.equals("")) {
+                    Toast.makeText(getActivity(), "Không được để trống!", Toast.LENGTH_SHORT).show();
+                } else {
+                    mReference = FirebaseDatabase.getInstance().getReference();
+                    model_product model_product = new model_product("", title, address, "baka", money, null, kind, ageofpet, more, "12/12/2012");
+                    mReference.child("product").setValue(model_product);
+                }
+            }
+        });
+        return view;
+    }
+
+>>>>>>> hai
 }

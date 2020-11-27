@@ -72,7 +72,11 @@ public class login extends AppCompatActivity {
         tv_register_now.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(new Intent(login.this,register.class));
+=======
+                startActivity(new Intent(login.this, register.class));
+>>>>>>> hai
             }
         });
 
@@ -116,7 +120,11 @@ public class login extends AppCompatActivity {
     }
 
     private void checkUsers() {
+<<<<<<< HEAD
         if (FirebaseAuth.getInstance().getCurrentUser() != null){
+=======
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+>>>>>>> hai
             Toast.makeText(this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
             startActivity(new Intent(login.this, home_acti.class));
         }
@@ -134,7 +142,11 @@ public class login extends AppCompatActivity {
                             Toast.makeText(login.this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
                             String user = mAuth.getCurrentUser().getDisplayName();
                             Toast.makeText(login.this, "" + user, Toast.LENGTH_SHORT).show();
+<<<<<<< HEAD
                             startActivity(new Intent(login.this,home_acti.class));
+=======
+                            startActivity(new Intent(login.this, home_acti.class));
+>>>>>>> hai
                         } else {
                             Toast.makeText(login.this, "Đăng nhập thất bại!", Toast.LENGTH_SHORT).show();
                         }
