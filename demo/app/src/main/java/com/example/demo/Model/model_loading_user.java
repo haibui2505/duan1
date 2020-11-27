@@ -15,6 +15,7 @@ public class model_loading_user {
         this.mLoadingUserAvatar = mLoadingUserAvatar;
     }
 
+
     public String getmLoadingUserName() {
         return mLoadingUserName;
     }

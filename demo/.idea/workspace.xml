@@ -47,7 +47,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dell M4700\Desktop\GitHub\duan1\demo\app\src\main\res\font" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -121,5 +126,27 @@
       <updated>1606407983477</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606470738971">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606470738971" />
+    <state width="1476" height="465" key="GridCell.Tab.0.bottom" timestamp="1606470770818">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="465" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606470770818" />
+    <state width="1476" height="465" key="GridCell.Tab.0.center" timestamp="1606470770817">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="465" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606470770817" />
+    <state width="1476" height="465" key="GridCell.Tab.0.left" timestamp="1606470770817">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="465" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606470770817" />
+    <state width="1476" height="465" key="GridCell.Tab.0.right" timestamp="1606470770818">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1476" height="465" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606470770818" />
   </component>
 </project>

@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -46,6 +47,8 @@ public class login extends AppCompatActivity {
     ImageView img_google_log;
     Button btn_login;
     EditText edt_inputEmail_log, edt_inputPassword_log;
+    TextView tv_register_now;
+
     private String TAG = "login";
 
     @Override
@@ -58,12 +61,21 @@ public class login extends AppCompatActivity {
         edt_inputPassword_log = findViewById(R.id.edt_inputPassword_log);
         img_google_log = findViewById(R.id.img_google_log);
         btn_login = findViewById(R.id.btn_login);
+        tv_register_now = findViewById(R.id.tv_register_now);
 
 //        Firebase
         mAuth = FirebaseAuth.getInstance();
 
 
 //        Sự kiện onClick
+
+        tv_register_now.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(login.this, register.class));
+            }
+        });
+
         img_next_to_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,8 +111,15 @@ public class login extends AppCompatActivity {
                 chooseUser();
             }
         });
+//        funtion
+        checkUsers();
+    }
 
-
+    private void checkUsers() {
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+            Toast.makeText(this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(login.this, home_acti.class));
+        }
     }
 
     private void login_main() {
@@ -115,6 +134,7 @@ public class login extends AppCompatActivity {
                             Toast.makeText(login.this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
                             String user = mAuth.getCurrentUser().getDisplayName();
                             Toast.makeText(login.this, "" + user, Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(login.this, home_acti.class));
                         } else {
                             Toast.makeText(login.this, "Đăng nhập thất bại!", Toast.LENGTH_SHORT).show();
                         }
@@ -141,12 +161,6 @@ public class login extends AppCompatActivity {
                     SIGN_IN_REQUEST_CODE
             );
         } else {
-            Toast.makeText(this,
-                    "Welcome " + FirebaseAuth.getInstance()
-                            .getCurrentUser()
-                            .getDisplayName(),
-                    Toast.LENGTH_LONG)
-                    .show();
 
         }
     }

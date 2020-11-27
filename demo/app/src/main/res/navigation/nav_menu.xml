@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/frag_Home">
+
+    <fragment
+        android:id="@+id/frag_Home"
+        android:name="com.example.demo.fragment.Frag_Home"
+        android:label="fragment_frag__home"
+        tools:layout="@layout/fragment_frag__home" >
+        <action
+            android:id="@+id/action_frag_Home_to_frag_Shop"
+            app:destination="@id/frag_Shop" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_Shop"
+        android:name="com.example.demo.fragment.Frag_Shop"
+        android:label="fragment_frag__shop"
+        tools:layout="@layout/fragment_frag__shop" >
+        <action
+            android:id="@+id/action_frag_Shop_to_frag_Direc"
+            app:destination="@id/frag_Direc" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_Ency"
+        android:name="com.example.demo.fragment.Frag_Ency"
+        android:label="fragment_frag__ency"
+        tools:layout="@layout/fragment_frag__ency" />
+    <fragment
+        android:id="@+id/frag_Noti"
+        android:name="com.example.demo.fragment.Frag_Noti"
+        android:label="fragment_frag__noti"
+        tools:layout="@layout/fragment_frag__noti" >
+        <action
+            android:id="@+id/action_frag_Noti_to_frag_Ency"
+            app:destination="@id/frag_Ency" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_Direc"
+        android:name="com.example.demo.fragment.Frag_Direc"
+        android:label="fragment_frag__direc"
+        tools:layout="@layout/fragment_frag__direc" >
+        <action
+            android:id="@+id/action_frag_Direc_to_frag_Noti"
+            app:destination="@id/frag_Noti" />
+    </fragment>
+</navigation>

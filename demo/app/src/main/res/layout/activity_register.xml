@@ -29,11 +29,7 @@
                     android:layout_alignParentLeft="true"
                     style="@style/viewParent.headerText.NoMode"
                     android:textColor="@color/whiteTextColor"
-<<<<<<< HEAD
-                    android:text="Here’s\nyour first\nstep with \nus! "/>
-=======
                     android:text="Đăng kí"/>
->>>>>>> duy
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -63,11 +59,7 @@
                             style="@style/modifiedEditText"
                             android:inputType="textPersonName"
                             android:maxLines="1"
-<<<<<<< HEAD
-                            android:hint="Name"/>
-=======
                             android:hint="Tên"/>
->>>>>>> duy
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -90,11 +82,7 @@
                             style="@style/modifiedEditText"
                             android:inputType="phone"
                             android:maxLines="1"
-<<<<<<< HEAD
-                            android:hint="Mobile Number"/>
-=======
                             android:hint="Số điện thoại"/>
->>>>>>> duy
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -104,11 +92,7 @@
                         <EditText
                             android:id="@+id/edt_pasword_reg"
                             style="@style/modifiedEditText"
-<<<<<<< HEAD
-                            android:hint="@string/login_password_hint"
-=======
                             android:hint="Mật khẩu"
->>>>>>> duy
                             android:maxLines="1"
                             android:inputType="textPassword"/>
                     </com.google.android.material.textfield.TextInputLayout>
@@ -116,20 +100,11 @@
                     <Button
                         android:id="@+id/btn_register"
                         style="@style/loginButton"
-<<<<<<< HEAD
-                        android:layout_width="100dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="@dimen/loginViewsMargin"
-                        android:text="Register"
-                         />
-=======
                         android:layout_width="140dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="@dimen/loginViewsMargin"
                         android:text="Đăng kí" />
->>>>>>> duy
 
                     <TextView
                         android:id="@+id/tv_login_now"
@@ -138,11 +113,7 @@
                         android:textStyle="bold"
                         android:textColor="@color/themeColor"
                         android:textSize="17sp"
-<<<<<<< HEAD
-                        android:text="Already have an account?"
-=======
                         android:text="Đăng nhập tài khoản"
->>>>>>> duy
                         android:layout_marginTop="@dimen/loginViewsMargin"
                         android:gravity="center_horizontal" />
 
@@ -168,11 +139,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/whiteTextColor"
-<<<<<<< HEAD
-                    android:text="Use other Methods"
-=======
                     android:text="Đăng nhập bằng"
->>>>>>> duy
                     android:layout_weight="6"
                     android:textSize="12sp"
                     android:textAlignment="center"

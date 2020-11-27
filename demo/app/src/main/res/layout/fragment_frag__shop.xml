@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8F89F"
+    tools:context=".fragment.Frag_Shop">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/linear_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_title_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/consola"
+                    android:hint="Tiêu đề"
+                    android:textSize="14sp"></EditText>
+
+
+                <EditText
+                    android:id="@+id/edt_address_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/consola"
+                    android:hint="Địa chỉ"
+                    android:textSize="14sp"></EditText>
+
+                <EditText
+                    android:id="@+id/edt_money_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/consola"
+                    android:hint="Tiền"
+                    android:textSize="14sp"></EditText>
+
+                <EditText
+                    android:id="@+id/edt_kind_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/consola"
+                    android:hint="Loại"
+                    android:textSize="14sp"></EditText>
+
+                <EditText
+                    android:id="@+id/edt_ageofpet_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/consola"
+                    android:hint="Tuổi"
+                    android:textSize="14sp"></EditText>
+
+                <EditText
+                    android:id="@+id/edt_more_pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/consola"
+                    android:hint="Chi tiết "
+                    android:textSize="14sp"></EditText>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></Spinner>
+
+                <Button
+                    android:id="@+id/btn_add_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="thêm"></Button>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_product"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linear_pro"
+                android:layout_marginTop="20dp"></ListView>
+        </RelativeLayout>
+
+    </ScrollView>
+</FrameLayout>
