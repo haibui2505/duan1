@@ -4,7 +4,6 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d9417e06842f0e8e7e140bbd0c63529/jetified-firebase-ui-auth-6.4.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d9417e06842f0e8e7e140bbd0c63529/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d9417e06842f0e8e7e140bbd0c63529/jetified-firebase-ui-auth-6.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d9417e06842f0e8e7e140bbd0c63529/jetified-firebase-ui-auth-6.4.0/res" />
     </CLASSES>
