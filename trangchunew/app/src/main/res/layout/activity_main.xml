@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:id="@+id/signInBTN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:background="@drawable/bg_button"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tv_signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Đăng nhập"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/brg_progressBar"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:background="@drawable/bg_bgr_progress"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_signin"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</FrameLayout>
