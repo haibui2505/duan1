@@ -7,10 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-<<<<<<< HEAD
 
-import com.example.demo.R;
-=======
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -23,7 +20,7 @@ import com.example.demo.Model.model_product;
 import com.example.demo.adapter.adapter_product;
 
 import java.util.ArrayList;
->>>>>>> hai
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,15 +28,14 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  */
 public class Frag_Shop extends Fragment {
-<<<<<<< HEAD
-=======
+
     private EditText edt_title, edt_address, edt_money, edt_kind, edt_ageof, edt_more;
     private Button btn;
     private DatabaseReference mReference;
     private ListView lv;
     private ArrayList<model_product> mList;
     private adapter_product adapter_product;
->>>>>>> hai
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -84,11 +80,7 @@ public class Frag_Shop extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-<<<<<<< HEAD
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frag__shop, container, false);
-    }
-=======
+
         View view = inflater.inflate(R.layout.fragment_frag__shop, container, false);
 
 //        Ánh xạ
@@ -128,6 +120,4 @@ public class Frag_Shop extends Fragment {
         });
         return view;
     }
-
->>>>>>> hai
 }
