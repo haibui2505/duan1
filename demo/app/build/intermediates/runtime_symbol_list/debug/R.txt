@@ -1847,7 +1847,6 @@ int id browser_actions_menu_item_icon 0x7f090062
 int id browser_actions_menu_item_text 0x7f090063
 int id browser_actions_menu_items 0x7f090064
 int id browser_actions_menu_view 0x7f090065
-
 int id btn_add_pro 0x7f090066
 int id btn_holder 0x7f090067
 int id btn_login 0x7f090068
@@ -2244,7 +2243,6 @@ int id wrap 0x7f0901ee
 int id wrap_content 0x7f0901ef
 int id yahoo_signin_button 0x7f0901f0
 int id zero_corner_chip 0x7f0901f1
-
 int integer abc_config_activityDefaultDur 0x7f0a0000
 int integer abc_config_activityShortDur 0x7f0a0001
 int integer app_bar_elevation_anim_duration 0x7f0a0002

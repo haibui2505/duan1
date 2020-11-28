@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\bmt\\Desktop\\test2\\New folder\\duan1\\demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BanHai\\.gradle\\caches\\transforms-2\\files-2.1\\9f9b766602149aec1f2b5b7536e3244c\\jetified-play-services-appinvite-16.0.4\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\bmt\\.gradle\\caches\\transforms-2\\files-2.1\\1ebf5f26c2e656cbe27c8f80cb0a8755\\jetified-play-services-appinvite-16.0.4\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

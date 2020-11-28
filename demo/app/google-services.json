@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1039603131019:android:47d5922af05534381bea8e",
         "android_client_info": {
-          "package_name": "com.example.chatfb"
+          "package_name": "com.example.demo"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1039603131019-s3vf5jfn97gui0r9blk1e3tu7sgoouhk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.chatfb",
+            "package_name": "com.example.demo",
             "certificate_hash": "68fd0e06d12ebc7c927c411de908a4b8b34cd317"
           }
         },
