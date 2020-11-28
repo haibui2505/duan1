@@ -8,20 +8,12 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e49430-a437-4937-9390-0a50023d6c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_login_hero.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_login_hero.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_register_hero.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_register_hero.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13e49430-a437-4937-9390-0a50023d6c3d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -55,12 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-<<<<<<< HEAD
-
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> hai
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -141,11 +128,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606470738971">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606470738971" />
+    <state x="420" y="94" key="FileChooserDialogImpl" timestamp="1606493065631">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="94" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606493065631" />
     <state width="1476" height="465" key="GridCell.Tab.0.bottom" timestamp="1606470770818">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -162,13 +152,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1476" height="465" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606470770818" />
-<<<<<<< HEAD
-
-=======
-    <state x="100" y="100" width="1336" height="664" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1606544162214">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="100" y="100" width="1080" height="480" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1606528824569">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="100" y="100" width="1336" height="664" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1606544162214" />
->>>>>>> hai
+    <state x="100" y="100" width="1080" height="480" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1606528824569" />
+    <state x="100" y="100" width="1080" height="480" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606534299033">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1606534299033" />
+    <state x="449" y="256" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606528865479">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="449" y="256" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606528865479" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606534198275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606534198275" />
   </component>
 </project>
