@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://duan1-b1bfe.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">1039603131019</string>
     <string name="google_api_key" translatable="false">AIzaSyAO1q4mg2NzduFG9QwizDL0ej69hrrvtcQ</string>
-    <string name="google_app_id" translatable="false">1:1039603131019:android:03b1dbb54cba6db81bea8e</string>
+    <string name="google_app_id" translatable="false">1:1039603131019:android:47d5922af05534381bea8e</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAO1q4mg2NzduFG9QwizDL0ej69hrrvtcQ</string>
     <string name="google_storage_bucket" translatable="false">duan1-b1bfe.appspot.com</string>
     <string name="project_id" translatable="false">duan1-b1bfe</string>

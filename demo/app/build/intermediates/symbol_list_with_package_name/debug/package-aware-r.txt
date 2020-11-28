@@ -1994,7 +1994,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView12
 id img_facebook_log
 id img_google_log
 id img_next_to_register
@@ -2222,12 +2221,10 @@ id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id tv_login_now
 id tv_register_now
-
 id txt_Title_pro
 id txt_address_pro
 id txt_date_pro
 id txt_money_pro
-
 id unchecked
 id uniform
 id unlabeled
