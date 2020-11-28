@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 #Fri Nov 27 16:52:50 ICT 2020
 
+=======
+#Sat Nov 28 13:16:49 ICT 2020
+>>>>>>> hai
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
