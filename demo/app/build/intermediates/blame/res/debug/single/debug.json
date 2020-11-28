@@ -24,20 +24,20 @@
         "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\src\\main\\res\\layout\\list_item_prod.xml"
     },
     {
-        "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_register_hero.png.flat",
-        "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_register_hero.png"
-    },
-    {
-        "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_back_img.png.flat",
+        "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_back_img.png"
     },
     {
         "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_facebook.png.flat",
         "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_facebook.png"
     },
     {
-        "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_back_img.png.flat",
-        "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_back_img.png"
+        "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_register_hero.png.flat",
+        "source": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_register_hero.png"
     },
     {
         "merged": "D:\\Dell M4700\\Desktop\\GitHub\\duan1\\demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_blue.xml.flat",

@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -26,6 +27,7 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  */
 public class Frag_Shop extends Fragment {
+
     private EditText edt_title, edt_address, edt_money, edt_kind, edt_ageof, edt_more;
     private Button btn;
     private DatabaseReference mReference;
@@ -76,6 +78,7 @@ public class Frag_Shop extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_frag__shop, container, false);
 
 //        Ánh xạ
@@ -115,5 +118,4 @@ public class Frag_Shop extends Fragment {
         });
         return view;
     }
-
 }
